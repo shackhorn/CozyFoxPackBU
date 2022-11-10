@@ -1,5 +1,5 @@
 
-name: Zip Files
+name: Generate Modpack ZIP
 
 on: push
 
@@ -16,13 +16,21 @@ jobs:
         with:
           name: CFPbu.zip
           path: ${{ github.workspace }}/CFPbu.zip
-      - uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+      - name: Commit files
+        run: |
+          git commit -a -m "Generated ZIP File [skip ci]"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          body: |
-            Automatic release
-          draft: false
-          prerelease: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+  #       - uses: actions/create-release@v1
+  #         env:
+  #           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+  #         with:
+  #           tag_name: ${{ github.ref }}
+  #           release_name: Release ${{ github.ref }}
+  #           body: |
+  #             Automatic release
+  #           draft: false
+  #           prerelease: true
