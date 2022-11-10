@@ -21,7 +21,7 @@ jobs:
           cd ${{ github.workspace }}
           git config --global user.email "actions@pnfx.dev"
           git config --global user.name "Pencil Fox"
-          git add CFPbu.zip
+          git add .
           git commit -a -m "Generated ZIP File, yip! [skip ci]
           git push -u origin main"
   #    - name: Push changes
