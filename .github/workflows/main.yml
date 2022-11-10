@@ -11,8 +11,8 @@ jobs:
       - uses: papeloto/action-zip@v1
         with:
           files: /CFPbu/bin /CFPbu/configs /CFPbu/Flan /CFPbu/mods 
-          dest: CFPbu.zip
           recursive: false
+          dest: CFPbu.zip
       - uses: actions/upload-artifact@v1
         with:
           name: CFPbu.zip
