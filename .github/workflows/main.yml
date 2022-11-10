@@ -18,7 +18,11 @@ jobs:
           path: ${{ github.workspace }}/CFPbu.zip
       - name: Commit files
         run: |
-          git commit -a -m "Generated ZIP File [skip ci]"
+          cd ${{ github.workspace }}
+          git config --global user.email "actions@pnfx.dev"
+          git config --global user.name "Pencil Fox"
+          git add CFPbu.zip
+          git commit -a -m "Generated ZIP File, yip! [skip ci]"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
