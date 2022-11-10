@@ -12,3 +12,7 @@ jobs:
         with:
           files: /CFPbu/bin /CFPbu/configs /CFPbu/Flan /CFPbu/mods 
           dest: CFPbu.zip
+      - uses: actions/upload-artifact@v1
+        with:
+          name: CFPbu.zip
+          path: ${{ github.workspace }}/CFPbu.zip
