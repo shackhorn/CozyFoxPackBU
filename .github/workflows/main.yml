@@ -1,12 +1,16 @@
-- name: Easy Zip Files
-  # You may pin to the exact commit or the version.
-  # uses: vimtor/action-zip@5f1c4aa587ea41db1110df6a99981dbe19cee310
-  uses: vimtor/action-zip@v1
-  with:
-    # Files or directories to zip
-    files: /CFPbu/bin /CFPbu/configs /CFPbu/Flan /CFPbu/mods 
-    # Name of output zip file
-    dest: CFPbu.zip
-    # optional, default is result.zip
-    # Whether to add subdirectories to simply zip all files to the root
-    recursive: # optional, default is true
+
+name: Zip Files
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  zip-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: papeloto/action-zip@v1
+        with:
+          files: /CFPbu/bin /CFPbu/configs /CFPbu/Flan /CFPbu/mods 
+          dest: CFPbu.zip
