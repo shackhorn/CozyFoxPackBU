@@ -31,8 +31,7 @@
 [softfuzzyman]
     volume = "0.10"
     [softfuzzyman.trigger]
-        name = "height"
-        level = -999999999
+        name = "blizzard"
         fade_in = "200"
         fade_out = "100"  
 [yousuck]
