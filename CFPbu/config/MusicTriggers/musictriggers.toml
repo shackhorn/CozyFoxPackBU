@@ -30,4 +30,6 @@
 [bakamitai]
     volume = "0.15"
     [[bakamitai.trigger]]
-        name = "lightrain"
+        name = "height"
+        identifier = "placeholder"
+        level = "-999999"
