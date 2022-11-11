@@ -10,6 +10,55 @@ playerToItemName = {
             artist: "Sweet"
         }
     },
+    "LeoTheMusicGhost": {
+        item: <musictriggers:dracontium>,
+        track: {
+            name: "Dracontium",
+            artist: "Leo the music ghost, Shack!"
+        }
+    },
+    "crackbox1": {
+        item: <musictriggers:invisibleman>,
+        track: {
+            name: "The Invisible Man",
+            artist: "Scatman John"
+        }
+    },
+    "PieceofIzu": {
+        item: <musictriggers:yousuck>,
+        track: {
+            name: "You Suck <3 (feat. Akintoye)",
+            artist: "Naethan Apollo"
+        }
+    },
+    "__Triple___": {
+        item: <musictriggers:bakamitai>,
+        track: {
+            name: "Baka Mitai (ばかみたい)",
+            artist: "Mr. Dame Yakuza"
+        }
+    },
+    "DevvyHex": {
+        item: <musictriggers:blackstar>,
+        track: {
+            name: "Black Star (feat. Ikonoklasm & Hayley)",
+            artist: "Starcadian"
+        }
+    },
+    "goobysart": {
+        item: <musictriggers:nikes>,
+        track: {
+            name: "nikes (feat. kid toni)",
+            artist: "nimstarr"
+        }
+    },
+    "skaokers": {
+        item: <musictriggers:softfuzzyman>,
+        track: {
+            name: "Soft Fuzzy Man",
+            artist: "Lemon Demon"
+        }
+    }
 } as IData;
 var desiredItem = playerToItemName.memberGet(event.player.name) | null; // as IData;
 if(desiredItem == null){

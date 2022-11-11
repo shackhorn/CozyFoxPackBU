@@ -1,11 +1,12 @@
 [blackstar]
     volume = "0.15"
     [[blackstar.trigger]]
-        name = "moon"
+        name = "biome"
+        biome_category = "unknawon"
 [dracontium]
     volume = "0.15"
     [[dracontium.trigger]]
-        name = "bluemoon"
+        name = "acidrain"
 [foxontherun]
     volume = "0.15"
     [[foxontherun.trigger]]
