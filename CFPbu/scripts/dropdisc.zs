@@ -4,7 +4,7 @@ print("Hello world!");
 event.items = <items>;
 playerToItemName = {
     "shackhorn": {
-        item: <musictriggers:blank_record>,
+        item: <musictriggers:foxontherun>,
         track: {
             name: "Fox on the Run",
             artist: "Sweet"

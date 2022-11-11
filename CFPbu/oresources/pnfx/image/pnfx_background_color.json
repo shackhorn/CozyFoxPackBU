@@ -3,7 +3,7 @@
   "image": "pnfx:image/pnfx_background_color.png",
   "position_type": "TOP_LEFT",
   "offset_pos": "TOP_LEFT",
-  "colour": "0xFF_40_40_40",
+  "colour": "0xFF_FF_FF_FF",
   "position": {
     "x": "0",
     "y": "0",

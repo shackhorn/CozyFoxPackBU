@@ -1,8 +1,7 @@
 {
     "renders": [
-        
-        "pnfx:pnfx_background",
         "pnfx:pnfx_background_color",
+        "pnfx:pnfx_background",
         "sample/text_percentage_scrolling",
         {
             "image": {
@@ -14,7 +13,7 @@
         {
             "image": {
                 "parent": "sample/bottom_bar",
-                "colour": "0xFF_7A_26_00"
+                "colour": "0xFF_FC_79_26"
             }
         }
     ],
@@ -47,7 +46,7 @@
                         "x": "30",
                         "y": "(factory_index - factory_count) * 16 - 4"
                       },
-                      "colour": "0xFF_00_00_00 | (0x01_01_01 * (0xFF - 0xFF * factory_age / max_scroll_count).max(0x20))"
+                      "colour": "0xFF_FC_79_26 | (0x01_01_01 * (0xFF - 0xFF * factory_age / max_scroll_count).max(0x20))"
                 }
             }
         }
