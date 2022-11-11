@@ -1,32 +1,32 @@
 [blackstar]
-    volume = "0.10"
-    [blackstar.trigger]
+    volume = "0.15"
+    [[blackstar.trigger]]
         name = "moon"
 [dracontium]
-    volume = "0.10"
-    [dracontium.trigger]
+    volume = "0.15"
+    [[dracontium.trigger]]
         name = "bluemoon"
 [foxontherun]
-    volume = "0.10"
-    [foxontherun.trigger]
+    volume = "0.15"
+    [[foxontherun.trigger]]
         name = "fallingstars"
 [invisibleman]
-    volume = "0.10"
-    [invisibleman.trigger]
+    volume = "0.15"
+    [[invisibleman.trigger]]
         name = "bloodmoon"
 [nikes]
-    volume = "0.10"
-    [nikes.trigger]
+    volume = "0.15"
+    [[nikes.trigger]]
         name = "gamestage"
 [softfuzzyman]
-    volume = "0.10"
-    [softfuzzyman.trigger]
+    volume = "0.15"
+    [[softfuzzyman.trigger]]
         name = "blizzard"
 [yousuck]
-    volume = "0.10"
-    [yousuck.trigger]
+    volume = "0.15"
+    [[yousuck.trigger]]
         name = "cloudy"
 [bakamitai]
-    volume = "0.10"
-    [bakamitai.trigger]
+    volume = "0.15"
+    [[bakamitai.trigger]]
         name = "lightrain"
