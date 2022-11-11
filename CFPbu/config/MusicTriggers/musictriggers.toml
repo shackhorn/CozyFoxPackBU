@@ -1,0 +1,48 @@
+[blackstar]
+    volume = "0.50"
+    [blackstar.trigger]
+        name = "menu"
+        fade_in = "200"
+        fade_out = "100"
+[dracontium]
+    volume = "0.50"
+    [dracontium.trigger]
+        name = "menu"
+        fade_in = "200"
+        fade_out = "100"
+[foxontherun]
+    volume = "0.50"
+    [foxontherun.trigger]
+        name = "menu"
+        fade_in = "200"
+        fade_out = "100"
+[invisibleman]
+    volume = "0.50"
+    [invisibleman.trigger]
+        name = "menu"
+        fade_in = "200"
+        fade_out = "100"
+[nikes]
+    volume = "0.50"
+    [nikes.trigger]
+        name = "menu"
+        fade_in = "200"
+        fade_out = "100"
+[softfuzzyman]
+    volume = "0.50"
+    [softfuzzyman.trigger]
+        name = "menu"
+        fade_in = "200"
+        fade_out = "100"  
+[yousuck]
+    volume = "0.50"
+    [yousuck.trigger]
+        name = "menu"
+        fade_in = "200"
+        fade_out = "100"  
+[bakamitai]
+    volume = "0.50"
+[bakamitai.trigger]
+        name = "menu"
+        fade_in = "200"
+        fade_out = "100"  
