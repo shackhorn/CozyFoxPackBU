@@ -1,6 +1,6 @@
 {
     "renders": [
-        "pnfx/splash_alt",
+        "pnfx:pnfx_background",
         "sample/text_percentage_scrolling",
         {
             "image": {
