@@ -2,47 +2,31 @@
     volume = "0.10"
     [blackstar.trigger]
         name = "moon"
-        fade_in = "200"
-        fade_out = "100"
 [dracontium]
     volume = "0.10"
     [dracontium.trigger]
         name = "bluemoon"
-        fade_in = "200"
-        fade_out = "100"
 [foxontherun]
     volume = "0.10"
     [foxontherun.trigger]
         name = "fallingstars"
-        fade_in = "200"
-        fade_out = "100"
 [invisibleman]
     volume = "0.10"
     [invisibleman.trigger]
         name = "bloodmoon"
-        fade_in = "200"
-        fade_out = "100"
 [nikes]
     volume = "0.10"
     [nikes.trigger]
         name = "gamestage"
-        fade_in = "200"
-        fade_out = "100"
 [softfuzzyman]
     volume = "0.10"
     [softfuzzyman.trigger]
         name = "blizzard"
-        fade_in = "200"
-        fade_out = "100"  
 [yousuck]
     volume = "0.10"
     [yousuck.trigger]
         name = "cloudy"
-        fade_in = "200"
-        fade_out = "100"  
 [bakamitai]
     volume = "0.10"
     [bakamitai.trigger]
         name = "lightrain"
-        fade_in = "200"
-        fade_out = "100"  
