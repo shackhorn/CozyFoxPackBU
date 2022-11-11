@@ -1,6 +1,26 @@
 {
     "renders": [
+        {
+            "parent": "builtin/image",
+            "image": "pnfx:image/pnfx_background_color.png",
+            "position_type": "TOP_LEFT",
+            "offset_pos": "TOP_LEFT",
+            "colour": "0xFF_40_40_40",
+            "position": {
+              "x": "0",
+              "y": "0",
+              "width": "screen_width",
+              "height": "screen_height"
+            },
+            "texture": {
+              "x": "0",
+              "y": "0",
+              "width": "1",
+              "height": "1"
+            }
+          },
         "pnfx:pnfx_background",
+
         "sample/text_percentage_scrolling",
         {
             "image": {
@@ -12,7 +32,7 @@
         {
             "image": {
                 "parent": "sample/bottom_bar",
-                "colour": "0xFF_7A_26_FF"
+                "colour": "0xFF_7A_26_00"
             }
         }
     ],
@@ -45,7 +65,7 @@
                         "x": "30",
                         "y": "(factory_index - factory_count) * 16 - 4"
                       },
-                      "colour": "0xFF_7A_26_FF | (0x01_01_01 * (0xFF - 0xFF * factory_age / max_scroll_count).max(0x20))"
+                      "colour": "0xFF_00_00_00 | (0x01_01_01 * (0xFF - 0xFF * factory_age / max_scroll_count).max(0x20))"
                 }
             }
         }

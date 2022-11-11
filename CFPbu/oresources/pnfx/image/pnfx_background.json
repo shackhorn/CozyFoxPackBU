@@ -1,6 +1,6 @@
 {
     "parent": "builtin/image",
-    "image": "pnfx:splash_alt.png",
+    "image": "pnfx:image/splash_alt.png",
     "position_type": "CENTER",
     "offset_pos": "CENTER",
     "colour": "0xFF_40_40_40",
