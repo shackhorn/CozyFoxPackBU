@@ -1,37 +1,38 @@
-[blackstar]
+[devvy]
     volume = "0.15"
-    [[blackstar.trigger]]
+    [[devvy.trigger]]
         name = "biome"
         biome_category = "unknawon"
-[dracontium]
+[leo]
     volume = "0.15"
-    [[dracontium.trigger]]
+    [[leo.trigger]]
         name = "acidrain"
-[foxontherun]
+[shack]
     volume = "0.15"
-    [[foxontherun.trigger]]
+    [[shack.trigger]]
         name = "fallingstars"
-[invisibleman]
+[crackbox]
     volume = "0.15"
-    [[invisibleman.trigger]]
+    [[crackbox.trigger]]
         name = "bloodmoon"
-[nikes]
+[goob]
     volume = "0.15"
-    [[nikes.trigger]]
-        name = "gamestage"
-        resource_name = "blahlbha"
+    [[goob.trigger]]
+        name = "advancement"
+        time = "1"
+        advancement = "IMPOSSIBLE ADVANCEMENT"
         identifier = "fart"
-[softfuzzyman]
+[skao]
     volume = "0.15"
-    [[softfuzzyman.trigger]]
+    [[skao.trigger]]
         name = "blizzard"
-[yousuck]
+[toby]
     volume = "0.15"
-    [[yousuck.trigger]]
+    [[toby.trigger]]
         name = "cloudy"
-[bakamitai]
+[triple]
     volume = "0.15"
-    [[bakamitai.trigger]]
+    [[triple.trigger]]
         name = "rainintensity"
         level = "100"
         identifier = "pooooooo"
