@@ -19,6 +19,8 @@
     volume = "0.15"
     [[nikes.trigger]]
         name = "gamestage"
+        resource_name = "blahlbha"
+        identifier = "fart"
 [softfuzzyman]
     volume = "0.15"
     [[softfuzzyman.trigger]]
@@ -30,6 +32,7 @@
 [bakamitai]
     volume = "0.15"
     [[bakamitai.trigger]]
-        name = "height"
-        identifier = "placeholder"
-        level = "-999999"
+        name = "rainintensity"
+        level = "100"
+        identifier = "pooooooo"
+
