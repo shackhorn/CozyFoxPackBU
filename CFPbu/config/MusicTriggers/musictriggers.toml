@@ -16,10 +16,9 @@
     [[crackbox.trigger]]
         name = "bloodmoon"
 [goob]
-    volume = "0.15"
+    volume = "0.00"
     [[goob.trigger]]
-        name = "raid"
-        identifier = "fart"
+        name = "menu"
 [skao]
     volume = "0.15"
     [[skao.trigger]]
@@ -34,4 +33,3 @@
         name = "rainintensity"
         level = "100"
         identifier = "pooooooo"
-
