@@ -18,9 +18,7 @@
 [goob]
     volume = "0.15"
     [[goob.trigger]]
-        name = "advancement"
-        time = "1"
-        advancement = "IMPOSSIBLE ADVANCEMENT"
+        name = "raid"
         identifier = "fart"
 [skao]
     volume = "0.15"
