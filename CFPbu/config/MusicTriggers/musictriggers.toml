@@ -19,10 +19,31 @@
     volume = "0.00"
     [[goob.trigger]]
         name = "menu"
-[skao]
+[dawn]
     volume = "0.15"
-    [[skao.trigger]]
+    [[dawn.trigger]]
         name = "blizzard"
+[skao]
+    volume = "0.00"
+    [[skao.trigger]]
+        name = "dead"
+[char]
+    volume = "0.00"
+    [[char.trigger]]
+        name = "tornado"
+        identifier = "poooregergregoooo"
+        level = "4"
+        detection_range = "4432423423434"
+[jack]
+    volume = "0.00"
+    [[jack.trigger]]
+        name = "difficulty"
+        level = "4"
+[skribs]
+    volume = "0.00"
+    [[skribs.trigger]]
+        name = "pvp"
+        identifier = "ewfwefwefwefewfewfewf"
 [toby]
     volume = "0.15"
     [[toby.trigger]]
@@ -32,4 +53,4 @@
     [[triple.trigger]]
         name = "rainintensity"
         level = "100"
-        identifier = "pooooooo"
+        identifier = "gregerger"
